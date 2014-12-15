@@ -1,9 +1,9 @@
-#ifndef PG_LINKED_LIST_INT
-	#define PG_LINKED_LIST_INT
+#ifndef PG_LINKED_LIST_INTEGER
+	#define PG_LINKED_LIST_INTEGER
 	typedef struct PG_LINKED_LIST_INT {
 		int32_t num;
-		PG_LINKED_LIST_INT * next;
-		PG_LINKED_LIST_INT * prev;
+		struct PG_LINKED_LIST_INT * next;
+		struct PG_LINKED_LIST_INT * prev;
 	} pgListInt;
 
 	void pgListAddFrontInt(pgListInt* head) {
