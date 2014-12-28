@@ -9,4 +9,4 @@ It is possible to include just the data structure header file you need for your 
 
 Implementations are provided for 32-bit integers, 64-bit integers, doubles, and character strings.
 
-Since this project is using the MIT License, be sure you understand what this means for you before you #include any part of this project in your code (additional info can be fonud by reading the file LICENSE).
+Since this project is using the MIT License, be sure you understand what this means for you before you #include any part of this project in your code (additional info can be found by reading the file LICENSE).
